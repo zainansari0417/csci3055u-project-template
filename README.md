@@ -18,8 +18,10 @@ Recursion is done without the use of loops in Haskell... So no loops!_
 
 ## About the syntax
 
-> _"--"
-> a single line comment is two dashes in Haskell_
+```
+--
+```
+> a single line comment is two dashes in Haskell.
 
 ```1 + 1 -- 2
 3 - 1 -- 2
@@ -33,7 +35,7 @@ Recursion is done without the use of loops in Haskell... So no loops!_
 ```
 not True -- False
 ```
-> in the example above, "not" is a function which takes an argument and reverses it
+> in the example above, "not" is a function which takes an argument and reverses it.
 
 ```
 "hello world"
@@ -44,19 +46,19 @@ not True -- False
 [1, 2, 3, 4, 5] 
 [1..5]
 ```
-> These two lists are equal
+> These two lists are equal.
 
 ``` 
 bounds :: Ix i => Array i e -> (i, i)
 ```
-> Array construction
+> Array construction.
 
 ```
 haskell = if 1 == 1
     then "Programming Languages is great"
     else "Calc II is life"
 ```
-> if expressions can either be on one line, or on multiple lines, but indentation is key
+> if expressions can either be on one line, or on multiple lines, but indentation is key.
 
 ## About the tools
 
