@@ -30,15 +30,14 @@ Recursion is done without the use of loops in Haskell... So no loops!_
 
 > True and False are boolean values
 
-> ```
+```
 not True -- False
 ```
 > in the example above, "not" is a function which takes an argument and reverses it
 
-> ```
+```
 "hello world"
 ```
-
 > a string has to be used with double quotations, single quotations will result in an error.
 
 ```
