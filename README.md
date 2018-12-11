@@ -123,4 +123,11 @@ transpose :: Matrix e -> Matrix e
 
 ## Symbol Resolution and the Support for Closure
 
+> _Haskell is based mainly on the lambda calculus, specifically in regards to its functions. Lambda Calculus houses functions with free variables, which are variables that were not passed as direct parameters to them. Since closure refers to the binding of free variables in the environment, the ability to encorporate closure is very necessary in first-class functions, which Haskell is full of. Haskell creates functions with free variables everywhere, so closures are created excessively._
+
+## Lexical vs Dynamic Scoping
+> _Haskell uses lexical scoping, or otherwise known as statically scoping. Each scope is represented by a block. Variables can be defined in that block and cannot be viewed or used from outside of that block. However, in enclosing scopes, variables can be viewed and used unless they are changed through another computation._
+
+## Functional Programming Constructs
+
 > __
