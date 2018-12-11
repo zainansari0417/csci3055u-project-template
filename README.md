@@ -27,15 +27,17 @@ Recursion is done without the use of loops in Haskell._
 10 * 3 -- 30
 42 / 6 -- 7
 ``` 
-> _Math is like every other language. All the operators behave the same way.
+> Math is like every other language. All the operators behave the same way.
 
 > True and False are boolean values
 
 > not True -- False
+
 > in the example above, "not" is a function which takes an argument and reverses it
 
 > "hello world"
-> a string has to be used with double quotations, single quotations will result in an error._
+
+> a string has to be used with double quotations, single quotations will result in an error.
 
 
 ## About the tools
