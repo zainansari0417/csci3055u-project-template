@@ -86,8 +86,19 @@ Hello, World!
 
 ## About the standard library
 
-> _Give some examples of the functions and data structures
-> offered by the standard library_.
+> _Every Haskell program automatically comes accessible to the standard library of Prelude. Prelude is the a library known to all basic programmers of Haskell because it has a wide range of functions not just for data structures_.
+### List functions
+- ":" the list constructor which adds elements to a list
+- "length ::" returns the length of the list elements
+- "head ::" returns first element
+- "last ::" returns last element
+- "init ::" returns 1st to 2nd last element
+- "tail ::" returns 2nd to last element
+- "concat ::" concatenates two lists
+- "drop :: Int -> [a] -> [a]" when applied, drops the required amount of elements from front of list
+- "map :: (a -> b) -> [a] -> [b]" takes a function and list, then applies function to every element in list
+- "maximum ::" returns maximum number in list
+- "minimum ::" returns minimum number in list
 
 ## About open source library
 
