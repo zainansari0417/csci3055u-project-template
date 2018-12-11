@@ -102,8 +102,14 @@ Hello, World!
 
 ## About open source library
 
-> _Describe at least one contribution by the open source
-community written in the language._
+> _Haskell is known for it's rich library environment. It has over 10 000 different libraries to assist in various tasks. Many contribute to file I/O, Data structures, games, graphics, hardware and so on and so forth. Matrix operations is a very lengthy procedure for humans to do by hand, however using the Numeric.Matrix library in haskell, it can do matrix operations in no time at all! It can create an empty matrix to an identity matrix. It can create a matrix using lists. It can reverse matrices, it can apply matrix operations to matrices, it can transpose matrices. Inverting matrices can also be done using Numeric.Matrix._
+```
+transpose :: Matrix e -> Matrix e
+ 1 8 9                1 2 3
+ 2 1 8  --transpose-> 8 1 2
+ 3 2 1                9 8 1 
+```
+> An example for how Numeric.Matrix transposes a matrix.
 
 # Analysis of the language
 
