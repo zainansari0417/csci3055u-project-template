@@ -30,17 +30,20 @@ Recursion is done without the use of loops in Haskell... So no loops!_
 
 > True and False are boolean values
 
-> not True -- False
-
+> ```
+not True -- False
+```
 > in the example above, "not" is a function which takes an argument and reverses it
 
-> "hello world"
+> ```
+"hello world"
+```
 
 > a string has to be used with double quotations, single quotations will result in an error.
 
 ```
 [1, 2, 3, 4, 5] 
-    [1..5]
+[1..5]
 ```
 > These two lists are equal
 
@@ -50,9 +53,9 @@ bounds :: Ix i => Array i e -> (i, i)
 > Array construction
 
 ```
-	haskell = if 1 == 1
-            then "Programming Languages is great"
-            else "Calc II is life"
+haskell = if 1 == 1
+    then "Programming Languages is great"
+    else "Calc II is life"
 ```
 > if expressions can either be on one line, or on multiple lines, but indentation is key
 
