@@ -3,7 +3,6 @@
 - _Muhammad Ansari 100586120_
 - _muhammad.ansari@uoit.net_
 
-Language: Haskell
 
 ## About the language
 
