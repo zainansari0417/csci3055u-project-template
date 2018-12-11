@@ -113,7 +113,14 @@ transpose :: Matrix e -> Matrix e
 
 # Analysis of the language
 
-> _Organize your report according to the project description
-document_.
+## Style of Programming
 
+> _Haskell is what is known as a functional programming language. This means that Haskell treats all computation as the evaluation of mathematical functions. Functional programming relies on a function only depending on it's arguments without regarding it's global or local state. Haskell has first class and higher order functions. Iteration is achieved using recursion in functional programming because of the fact that there are no loops. Since there are no loops, you would have to define a recursive function to recursively iterate over the argument. Haskell can only compute for te current value of global constants. It cannot change or modify its value. While Haskell is mostly pure, which means there are no side effects in memory or I/O, it does allow the use of arrays._
 
+## Meta-Programming
+
+> _One can achieve meta-programming in Haskell using an extension called Template Haskell. Template Haskell is an extension to Haskell 98 which allowed compile-time, type-safe meta-programming using Haskell both as the manipulating language, and the language being manipulated. Template Haskell allows us to to convert back and forth from concrete syntax and abstract syntax trees. Concrete syntax being normal haskell code written in a text editor. This would allow code to be converted into abstract, transformed and reverted again while the compiler is compiling the module._
+
+## Symbol Resolution and the Support for Closure
+
+> __
