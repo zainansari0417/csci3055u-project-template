@@ -62,7 +62,27 @@ haskell = if 1 == 1
 
 ## About the tools
 
-> _Describe the compiler or interpreter needed_.
+> _Haskell uses a compiler known as the Glasgow Haskell Compiler, or GHC. It is an open-sourced compiler which provides a cross-platform environment for executing code in Haskell. Developed majorly by developers Simon Peyton Jones and Simon Marlow, the GHC supports various libraries and extensions which smoothes out the process of code execution. The GHC has been designed to work on most major operating systems such as Windows, Mac OS, and Linux. Although the compiler is written in Haskell, the runtime system, which is necessary to run programs, is written in C and C--. The GHC's front end, which includes the lexer, parser and typechecker, is designed to preserve as much information as possible about the source code, until after the type inference is complete. The aim is this is to provide more clear and concise error messages to users. The back end of the compiler is designed to transform the Core code into a representation of C-- through the means of STG (Spineless Tagless G-Machine). From there the C-- code can either be printed as C for compilation with GCC, converted into native machine code, or converted to LLVM virtual machine code to be compiled using LLVM._.
+
+> To run Haskell code, the Haskell system needs to be downloaded onto the computer which comes with the GHC.
+> Open the command line and type "ghci" or "WinGHCi" for windows
+```
+    $ ghci
+    GHCi, version 6.12.3: http://www.haskell.org/ghc/  :? for help
+    Loading package base ... linking ... done.
+    Prelude>
+```
+> This means haskell is now ready for the code.
+> To compile a simple hello world like the file in the basic_syntax folder:
+```
+$ ghc -o hello hello.hs
+```
+> This should compile
+> To run it:
+```
+$ ./hello
+Hello, World!
+```
 
 ## About the standard library
 
