@@ -14,7 +14,7 @@ when a type of a value contains one or more type variables. This allows the valu
 
 > _Some interesting features about Haskell would include its use of indents when defining functions or loops. Other languages like Python also use indentation. 
 Curry, which translates a function orginally meant to intake many arguments, to take multiple functions with singular arguments, comes default with Haskell. 
-Recursion is done without the use of loops in Haskell._
+Recursion is done without the use of loops in Haskell... So no loops!_
 
 ## About the syntax
 
@@ -38,6 +38,20 @@ Recursion is done without the use of loops in Haskell._
 
 > a string has to be used with double quotations, single quotations will result in an error.
 
+```[1, 2, 3, 4, 5] 
+    [1..5]
+```
+> These two lists are equal
+
+``` bounds :: Ix i => Array i e -> (i, i)
+```
+> Array construction
+
+```haskell = if 1 == 1
+            then "Programming Languages is great"
+            else "Calc II is life"
+```
+> if expressions can either be on one line, or on multiple lines, but indentation is key
 
 ## About the tools
 
