@@ -38,16 +38,19 @@ Recursion is done without the use of loops in Haskell... So no loops!_
 
 > a string has to be used with double quotations, single quotations will result in an error.
 
-```[1, 2, 3, 4, 5] 
+```
+[1, 2, 3, 4, 5] 
     [1..5]
 ```
 > These two lists are equal
 
-``` bounds :: Ix i => Array i e -> (i, i)
+``` 
+bounds :: Ix i => Array i e -> (i, i)
 ```
 > Array construction
 
-```haskell = if 1 == 1
+```
+	haskell = if 1 == 1
             then "Programming Languages is great"
             else "Calc II is life"
 ```
