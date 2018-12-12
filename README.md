@@ -6,9 +6,7 @@
 
 ## About the language
 
-> _Haskell is a programming language named after Haskell Brooks Curry. It is mostly polymorphical, lazy and solely functional
-language. Haskell is polymorphical because it houses parametric and ad-hoc polymorphism. Parametric polymorphism refers to 
-when a type of a value contains one or more type variables. This allows the value to adopt any type. For example, in the function "id :: a -> a", the unconstrained type "a" can be used in a context requiring "Char -> Char" or "Integer -> Integer". Ad-hoc polymorphism refers to when a value can have  multiple meanings based on a different definition given to it. For example, "+" adds two integers when placed in front, but if placed in front of two strings, it concatenates the two strings. Haskell is a lazy language because it only acts when it is needed. For example, an expression will not execute until their result is needed by other computations further on in the code. Haskell is a functional lanuage, which means that it requires evaluating expressions rather than statements which change global states. Functions are to be treated as first-class and are to be treated like any other value and can be passed as arguments._
+> _Haskell is a programming language named after Haskell Brooks Curry. It is mostly polymorphical, lazy and solely functional language. Haskell is polymorphical because it houses parametric and ad-hoc polymorphism. Parametric polymorphism refers to when a type of a value contains one or more type variables. This allows the value to adopt any type. For example, in the function "id :: a -> a", the unconstrained type "a" can be used in a context requiring "Char -> Char" or "Integer -> Integer". Ad-hoc polymorphism refers to when a value can have  multiple meanings based on a different definition given to it. For example, "+" adds two integers when placed in front, but if placed in front of two strings, it concatenates the two strings. Haskell is a lazy language because it only acts when it is needed. For example, an expression will not execute until their result is needed by other computations further on in the code. Haskell is a functional lanuage, which means that it requires evaluating expressions rather than statements which change global states. Functions are to be treated as first-class and are to be treated like any other value and can be passed as arguments._
 
 > _Haskell was originally introduced in the form of the first "Haskell Language Report" in 1990 by an academic committee which formed to design and implement a new language which could be used as a stepping stone in research as well as for teaching functional programming. Haskell was built around the idea of integrating lambda calculus into programming. Lambda calculus involved functional abstraction and application, much like defining and calling functions in Haskell. The most commonly used implementation of Haskell is the Glasgow Haskell Compiler (ghc) which also an an interpreter (ghci). Haskell is not widely taught and used in research at several universities including Glasgow and Edinburgh._ 
 
@@ -115,7 +113,7 @@ transpose :: Matrix e -> Matrix e
 
 ## Style of Programming
 
-> _Haskell is what is known as a functional programming language. This means that Haskell treats all computation as the evaluation of mathematical functions. Functional programming relies on a function only depending on it's arguments without regarding it's global or local state. Haskell has first class and higher order functions. Iteration is achieved using recursion in functional programming because of the fact that there are no loops. Since there are no loops, you would have to define a recursive function to recursively iterate over the argument. Haskell can only compute for te current value of global constants. It cannot change or modify its value. While Haskell is mostly pure, which means there are no side effects in memory or I/O, it does allow the use of arrays._
+> _Haskell is what is known as a functional programming language. This means that Haskell treats all computation as the evaluation of mathematical functions. Functional programming relies on a function only depending on it's arguments without regarding it's global or local state. Haskell has first class and higher order functions. Iteration is achieved using recursion in functional programming because of the fact that there are no loops. Since there are no loops, you would have to define a recursive function to recursively iterate over the argument. Haskell can only compute for the current value of global constants. It cannot change or modify its value. While Haskell is mostly pure, which means there are no side effects in memory or I/O, it does allow the use of arrays._
 
 ## Meta-Programming
 
@@ -130,4 +128,22 @@ transpose :: Matrix e -> Matrix e
 
 ## Functional Programming Constructs
 
-> __
+> _Functional programmong constructs are available through the language itself due it Haskell being a functional programming language primarily. Every value is a result of a computation of a function. Loops are replaced by a recursive function._
+
+## Static vs Dynamic Types
+
+> _Haskell consists of a static type system. Static typing has the added advantage that errors can be caught before the program runs. It can also run more efficiently because if the variable is a "ASCII" character, the compiler knows to reserve a byte for it, rather than allocate memory for it during run-time. The variable does not need checking once processed because there it cannot be modified._
+
+## Pros
+- Type inference which means you do not need to worry about types
+- Very expressive and straight to the point syntax
+- Glasglow Haskell Compiler (GHC) is actively improving and already allows the use of many libraries and extensions for compiling code as well as execution on GPU
+- Parallelism is extremely easy
+- Produces high performance executables
+- Has a large availibility of libraries
+- Easy testing due to pure functions and lazy programming
+- Type system and level of abstraction allows the use of code re-use easily
+
+## Cons
+- Quite difficult to master Haskell
+
