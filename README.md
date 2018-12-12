@@ -58,6 +58,8 @@ haskell = if 1 == 1
 ```
 > if expressions can either be on one line, or on multiple lines, but indentation is key.
 
+> More examples in the basic_syntax folder
+
 ## About the tools
 
 > _Haskell uses a compiler known as the Glasgow Haskell Compiler, or GHC. It is an open-sourced compiler which provides a cross-platform environment for executing code in Haskell. Developed majorly by developers Simon Peyton Jones and Simon Marlow, the GHC supports various libraries and extensions which smoothes out the process of code execution. The GHC has been designed to work on most major operating systems such as Windows, Mac OS, and Linux. Although the compiler is written in Haskell, the runtime system, which is necessary to run programs, is written in C and C--. The GHC's front end, which includes the lexer, parser and typechecker, is designed to preserve as much information as possible about the source code, until after the type inference is complete. The aim is this is to provide more clear and concise error messages to users. The back end of the compiler is designed to transform the Core code into a representation of C-- through the means of STG (Spineless Tagless G-Machine). From there the C-- code can either be printed as C for compilation with GCC, converted into native machine code, or converted to LLVM virtual machine code to be compiled using LLVM._.
@@ -139,6 +141,7 @@ transpose :: Matrix e -> Matrix e
 - Very expressive and straight to the point syntax
 - Glasglow Haskell Compiler (GHC) is actively improving and already allows the use of many libraries and extensions for compiling code as well as execution on GPU
 - Parallelism is extremely easy
+- Lazy programming
 - Produces high performance executables
 - Has a large availibility of libraries
 - Easy testing due to pure functions and lazy programming
@@ -146,4 +149,7 @@ transpose :: Matrix e -> Matrix e
 
 ## Cons
 - Quite difficult to master Haskell
-
+- Undersupply of Haskell Jobs and oversupply of people trying to get a Haskell job
+- Cannot use side effects to achieve file I/O due to Haskell's purity
+- Haskell is extremely math-minded, not very friendly for a pragmatic person
+- Although widely used on multiple computer operating systems, Haskell cannot be used for Android or iOS development
